@@ -37,3 +37,47 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
+
+.about-page{
+    .text-zone{
+        position: absolute;
+        left: 130px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1{
+            font-size: 53px;
+            font-family: 'Coolvetica';
+            color: white;
+            margin-top: 0;
+            position: relative;
+        }
+        .currentBook{
+            color: #ed4747;
+        }
+        p{
+            font-style: 13px;
+            font-size: 1.3em;
+            color: white;
+            font-family: sans-serif;
+            font-weight: thin;
+            min-width: fit-content;
+            animation: pulse 1s;
+
+        }
+    }
+}
+
+.bookCover{
+    position: absolute;
+    top: 50%; 
+    right: 25%; 
+    transform: translateY(-50%);
+    z-index: -1;
+    width: 25%;
+    height: auto;
+}
