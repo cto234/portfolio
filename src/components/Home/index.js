@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
+import Logo from '../Logo'
 import './index.scss'
 
 const Home = () => {
@@ -38,9 +39,10 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22}/>
                 </h1>
-                <h2>Frontend Developer, Software Engineering</h2>
+                <h2>Frontend Developer, Software Engineer</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     )
 }

@@ -1,0 +1,22 @@
+.logo-container {
+    z-index: 0;
+
+    .c-logo {
+        animation:slideInDown;
+        font-family: coolvetica;
+        font-size: 550px;
+        font-weight: 800;
+        color: #ed4747;
+        position: absolute;
+        top: 50%; 
+        right: 20%; 
+        transform: translateY(-50%) rotate(-15deg);
+        opacity: 0.8;
+        z-index: -1;
+    }
+    top: 0;
+    right: 10%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+}
