@@ -1,0 +1,63 @@
+/*
+.logoList {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0;
+    z-index: 0;
+  }
+  
+  .logoList-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .logoList-ul li {
+    flex: 0 0 auto;
+  }
+  
+  .techLogo {
+    width: 60px;
+    height: auto;
+  }
+  */
+  .logoList {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    z-index: 0;
+  }
+  
+  .logoList-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .logoList-ul li {
+    flex: 0 0 auto;
+  }
+  
+  .techLogo {
+    width: 60px;
+    height: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
