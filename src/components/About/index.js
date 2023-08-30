@@ -1,4 +1,5 @@
 import './index.scss' 
+
 import AnimatedLetters from '../AnimatedLetters'
 import bookCover from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/bookCover.jpeg'
 import javascriptLogo from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/javascriptLogo.png'
@@ -9,6 +10,7 @@ import cssLogo from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets
 import mongodbLogo from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/mongodbLogo.png'
 import javaLogo from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/javaLogo.png'
 import pythonLogo from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/pythonLogo.png'
+import resume from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/documents/Connor O\'Doherty Resume 2023.pdf'
 
 import { useEffect, useState} from 'react'
 
@@ -43,7 +45,7 @@ const About = () => {
                 <p>In my free time I enjoy playing guitar, drums, and video games. I love books and I'm currently reading: </p>
                 <p className='currentBook'>the Dharma Bums by Jack Kerouac</p>
                 <p>Please take a look at my previous projects, I will be adding more as time goes on, and feel free to contact me through this site!</p>
-                <p>Below are a few of the technologies I am familiar with!</p>
+                <p><a href={resume}>Click here </a>to view my resume. Below are a few of the technologies I am familiar with!</p>
             </div>
             <img className='bookCover' src={bookCover} alt='Book Cover'></img>
             <div className='logoList'>
