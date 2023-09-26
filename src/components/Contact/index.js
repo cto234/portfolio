@@ -84,7 +84,7 @@ const Contact = () => {
                     <span>connor.t.odoherty@gmail.com</span>
                 </div>
                 <div className='map-wrap'>
-                    <MapContainer center={[40.7080993,-73.953759]} zoom={13} className='map-container'>
+                    <MapContainer center={[40.7080993,-73.953759]} zoom={12.5} className='map-container'>
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                             url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'

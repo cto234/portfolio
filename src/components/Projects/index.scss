@@ -7,5 +7,34 @@ text-zone {
     color: #fff;
     padding: 20px;
     min-height: 150px;
-    box-sizing: border-box;
+    box-sizing: border-box;}
+
+.project-list {
+
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+
+    h2 {
+        font-size: 30px;
+        color: white;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .photo-folder-image, .blackjack-image{
+        float: left;
+        width: 30em;
+    }
+}
+.project-list li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
