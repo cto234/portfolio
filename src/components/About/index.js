@@ -45,7 +45,7 @@ const About = () => {
                 <p>In my free time I enjoy playing guitar, drums, and video games. I love books and I'm currently reading: </p>
                 <p className='currentBook'>the Dharma Bums by Jack Kerouac</p>
                 <p>Please take a look at my previous projects, I will be adding more as time goes on, and feel free to contact me through this site!</p>
-                <p><a href={resume}>Click here </a>to view my resume. Below are a few of the technologies I am familiar with!</p>
+                <p><a href={resume} className='link'>Click here </a>to view my resume. Below are a few of the technologies I am familiar with!</p>
             </div>
             <img className='bookCover' src={bookCover} alt='Book Cover'></img>
             <div className='logoList'>

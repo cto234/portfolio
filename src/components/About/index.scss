@@ -53,9 +53,11 @@
     height: auto;
   }
 
-  a {
+  .link {
     color: inherit;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: white;
   }
   
 

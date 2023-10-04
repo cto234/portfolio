@@ -34,14 +34,14 @@ const Projects = () => {
                     </h1>
                     <ul className='project-list'>
                         <li>  
-                            <a href='https://github.com/cto234/Photo-Folder'>
+                            <a href='https://github.com/cto234/Photo-Folder' className='link'>
                                 <h2>Photo Folder</h2>
                                 <img className='photo-folder-image' src={photoFolder} alt='Project Homepage'/>
                             </a>
                             <p>A web app I made using Node, Express, MongoDB, Sass and Handlebars for storing and categorizing images from the web. Simply paste the url to the image in one of your folders to save it. (No email required to register, just create a unique username and password)</p>
                         </li>
                         <li>
-                            <a href='https://github.com/cto234/Blackjack'>
+                            <a href='https://github.com/cto234/Blackjack' className='link'>
                                 <h2>Blackjack</h2>
                                 <img className='blackjack-image' src={blackjack} alt='Blackjack' />
                             </a>
