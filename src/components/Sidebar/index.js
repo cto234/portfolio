@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './index.scss';
-import smallLogo from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/small-logo.png'
+import smallLogo from '../../assets/images/small-logo.png'
 
 const Sidebar = () => (
     <div className='nav-bar'>

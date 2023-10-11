@@ -1,7 +1,7 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import photoFolder from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/photo-folder.png'
-import blackjack from '/Users/connorodoherty/Documents/Coding/portfolio/src/assets/images/blackjack.png'
+import photoFolder from '../../assets/images/photo-folder.png'
+import blackjack from '../../assets/images/blackjack.png'
 import { useEffect, useState} from 'react'
 
 
