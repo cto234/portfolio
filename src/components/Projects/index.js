@@ -2,6 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import photoFolder from '../../assets/images/photo-folder.png'
 import blackjack from '../../assets/images/blackjack.png'
+import travelTime from '../../assets/images/travel-time.png'
 import { useEffect, useState} from 'react'
 
 
@@ -33,6 +34,13 @@ const Projects = () => {
                         />
                     </h1>
                     <ul className='project-list'>
+                        <li>  
+                            <a href='https://github.com/cto234/travel-time' className='link'>
+                                <h2>Travel Time</h2>
+                                <img className='travel-time-image' src={travelTime} alt='Travel Time'/>
+                            </a>
+                            <p>A React app that calculates the travel times of different travelers such as animals or vehicles between any two points on earth using the Google Maps API.</p>
+                        </li>
                         <li>  
                             <a href='https://github.com/cto234/Photo-Folder' className='link'>
                                 <h2>Photo Folder</h2>
