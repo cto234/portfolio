@@ -44,7 +44,7 @@ const About = () => {
                 <p>During my time at NYU I gained a strong foundation in programming and developed a passion for creating engaging and aesthetically pleasing digital experiences. I am interested in exploring web development, UI/UX design, and software engineering.</p>
                 <p>In my free time I enjoy playing guitar, drums, and video games. I love books and I'm currently reading: </p>
                 <p className='currentBook'>A Feast for Crows by George R.R. Martin</p>
-                <p>Please take a look at my previous projects, I will be adding more as time goes on, and feel free to contact me through this site!</p>
+                <p>Please take a look at my <a href='/projects' className='link'>previous projects</a>, I will be adding more as time goes on, and feel free to contact me through this site!</p>
                 <p><a href={resume} className='link'>Click here </a>to view my resume. Below are a few of the technologies I am familiar with!</p>
             </div>
             <img className='bookCover' src={bookCover} alt='Book Cover'></img>
