@@ -4,6 +4,7 @@ import photoFolder from '../../assets/images/photo-folder.png'
 import blackjack from '../../assets/images/blackjack.png'
 import travelTime from '../../assets/images/travel-time.png'
 import bookReviews from '../../assets/images/bookReviews.png'
+import connorsClothes from '../../assets/images/connors-clothes.mov'
 import { useEffect, useState} from 'react'
 
 
@@ -35,6 +36,15 @@ const Projects = () => {
                         />
                     </h1>
                     <ul className='project-list'>
+                         <li>  
+                            <a href='https://github.com/cto234/connors-clothes' className='link'>
+                                <h2>Connor's Clothes</h2>
+                                <video className='screenshot' controls loop muted>
+                                    <source src={connorsClothes} type="video/mp4"></source>
+                                </video>
+                            </a>
+                            <p>A larger scale project I made using React to simulate an ecommerce site to sell my clothes. This app is fully functional with the ability to sort products by price and size, individual item pages with an image carousel and product information, and cart management that tracks number of items and total price.</p>
+                        </li>
                         <li>  
                             <a href='https://github.com/cto234/book-reviews' className='link'>
                                 <h2>Connor's Book Reviews</h2>
@@ -64,7 +74,7 @@ const Projects = () => {
                             <p>A simple game of blackjack I made using Node, Express and Javascript for the CPU logic.</p>
                         </li>
                         <li>
-                            <h2>...and more to come!</h2>
+                            <h2 className='more-to-come'>...and more to come!</h2>
                         </li>
                     </ul>
                 </div>
@@ -73,6 +83,5 @@ const Projects = () => {
         </>
     )
 }
-//TODO host photofolder somewhere and link to it
-//TODO make projects page a grid not a single row
+
 export default Projects
