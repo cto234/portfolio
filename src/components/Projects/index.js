@@ -37,12 +37,7 @@ const Projects = () => {
                     </h1>
                     <ul className='project-list'>
                          <li>  
-                            <a href='https://github.com/cto234/connors-clothes' className='link'>
-                                <h2>Connor's Clothes</h2>
-                                <video className='screenshot' controls loop muted>
-                                    <source src={connorsClothes} type="video/mp4"></source>
-                                </video>
-                            </a>
+                         <iframe width="560" height="315" src="https://www.youtube.com/embed/NJiOUFyFuaw?si=kqg9iqwXUePSzB6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <p>A larger scale project I made using React to simulate an ecommerce site to sell my clothes. This app is fully functional with the ability to sort products by price and size, individual item pages with an image carousel and product information, and cart management that tracks number of items and total price.</p>
                         </li>
                         <li>  
