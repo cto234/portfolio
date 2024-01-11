@@ -4,6 +4,7 @@ import photoFolder from '../../assets/images/photo-folder.png'
 import blackjack from '../../assets/images/blackjack.png'
 import travelTime from '../../assets/images/travel-time.png'
 import bookReviews from '../../assets/images/bookReviews.png'
+import portfolioScreenshot from '../../assets/images/portfolio-screenshot.png'
 import { useEffect, useState} from 'react'
 
 
@@ -66,6 +67,16 @@ const Projects = () => {
                                 <img className='screenshot' src={blackjack} alt='Blackjack' />
                             </a>
                             <p>A simple game of blackjack I made using Node, Express and Javascript for the CPU logic.</p>
+                        </li>
+                        <li>
+                            <h2 className='more-to-come'>Not to mention...</h2>
+                        </li>
+                        <li>
+                            <a href='https://github.com/cto234/portfolio' className='link'>
+                                <h2>This site!</h2>
+                                <img className='screenshot' src={portfolioScreenshot} alt='Portfolio' />
+                            </a>
+                            <p>This portfolio site was built by me using React and Sass. It was a great learning experience for medium-sized projects and I gained valuable insight into project structure, styling, and working with live deployments, as well as being a valuable tool for me to display my work for potential employers! </p>
                         </li>
                         <li>
                             <h2 className='more-to-come'>...and more to come!</h2>
