@@ -4,7 +4,6 @@ import photoFolder from '../../assets/images/photo-folder.png'
 import blackjack from '../../assets/images/blackjack.png'
 import travelTime from '../../assets/images/travel-time.png'
 import bookReviews from '../../assets/images/bookReviews.png'
-import connorsClothes from '../../assets/images/connors-clothes.mov'
 import { useEffect, useState} from 'react'
 
 
@@ -37,7 +36,7 @@ const Projects = () => {
                     </h1>
                     <ul className='project-list'>
                          <li>  
-                         <iframe width="560" height="315" src="https://www.youtube.com/embed/NJiOUFyFuaw?si=kqg9iqwXUePSzB6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NJiOUFyFuaw?si=kqg9iqwXUePSzB6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             <p>A larger scale project I made using React to simulate an ecommerce site to sell my clothes. This app is fully functional with the ability to sort products by price and size, individual item pages with an image carousel and product information, and cart management that tracks number of items and total price.</p>
                         </li>
                         <li>  
