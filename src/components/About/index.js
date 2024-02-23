@@ -45,23 +45,9 @@ const About = () => {
                 <p>In my free time I enjoy playing guitar, drums, and video games. I love books and I'm currently reading: </p>
                 <p className='currentBook'>Trask by Don Berry</p>
                 <p>Please take a look at my <a href='/projects' className='link'>previous projects</a>, I will be adding more as time goes on, and feel free to contact me through this site!</p>
-                <p><a href={resume} className='link'>Click here </a>to view my resume. Below are a few of the technologies I am familiar with!</p>
+                <p><a href={resume} className='link'>Click here </a>to view my resume.</p>
             </div>
-            <img className='bookCover' src={bookCover} alt='Book Cover'></img>
-            <div className='logoList'>
-                <ul className='logoList-ul'>
-                    <li><img className='techLogo' src={javascriptLogo} alt='Javascript Logo'></img></li>
-                    <li><img className='techLogo' src={htmlLogo} alt='HTML Logo'></img></li>
-                    <li><img className='techLogo' src={cssLogo} alt='CSS Logo'></img></li>
-                    <li><img className='techLogo' src={reactLogo} alt='React Logo'></img></li>
-                    <li><img className='techLogo' src={nodeLogo} alt='Node Logo'></img></li>
-                    <li><img className='techLogo' src={javaLogo} alt='Java Logo'></img></li>
-                    <li><img className='techLogo' src={mongodbLogo} alt='MongoDB Logo'></img></li>
-                    <li><img className='techLogo' src={pythonLogo} alt='Python Logo'></img></li>
-
-                </ul>
-            </div>
-           
+            <img className='bookCover' src={bookCover} alt='Book Cover'></img>           
         </div>
     )
 }
